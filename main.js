@@ -47,8 +47,15 @@ app.on('window-all-closed', function() {
 /* When app fully initialized */
 app.on('ready', function() {
   /* Create new Window */
-  mainWindow = new BrowserWindow({width: 800, height: 800});
+  mainWindow = new BrowserWindow({
+    width: 800,
+    height: 800,
+    title: 'Symfony Profiler Hot Reload',
+    icon: './public/icon.png'
+  });
   mainWindow.maximize();
+
+  mainWindow.setMenu(null);
 
   /* Load window content */
   mainWindow.loadUrl('file://' + __dirname + '/public/index.html');
