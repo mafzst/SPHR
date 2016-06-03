@@ -2,6 +2,8 @@
  * Front Js File
  *
  * All the front logic, using ReactJs
+ *
+ * Released under GNU General Public Licence v3
  */
 
 require('../less/main.less');

@@ -2,6 +2,8 @@
  * Main JS file
  *
  * Initialize Electron App
+ *
+ * Released under GNU General Public Licence v3
  */
 
 var app = require('app');
