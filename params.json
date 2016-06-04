@@ -1,0 +1,6 @@
+{
+  "name": "SPHR",
+  "tagline": "An electron app to live reload the Symfony Profiler",
+  "body": "# SPHR - Live Reload Symfony Profiler\r\n\r\nWhen you develop Symfony apps, the profiler is a great tool to debug your code. Because it's based on a specific token for each requests you make, you have to reopen it each time to refresh it. It's very painful no?  \r\n**That's why you have to try SPHR!**  \r\nSPHR is a desktop application and a Chrome Extension. These two piece of software can resolve all your problems!\r\n\r\n![SPHR Screenshot](http://hpics.li/2cfd720)\r\n\r\n## How to use SPHR?  \r\n> You must have NodeJs and NPM installed\r\n\r\n### The desktop app\r\n``` bash\r\n# First clone the App repo  \r\n$ git clone https://github.com/mafzst/SPHR-app.git SPHR   \r\n# Go to the SPHR app folder and build the app  \r\n$ cd SPHR  \r\n$ npm install  # Install dependencies  \r\n$ npm run-script watch  # Start javascripts compilation\r\n# In another terminal window\r\n$ npm start\r\n```\r\n\r\n### The Chrome extension\r\n@TODO   ",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
