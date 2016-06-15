@@ -4,8 +4,8 @@ An electron app to live reload the Symfony Profiler
 ## Install
 ``` bash
 npm install  
-npm run-script watch
-npm start  #(other term window)
+npm run build
+npm start
 ```
 
-__You must have the Chrome Extension!__
+__You must have the Chrome Extension!__ A version can be downloaded in releases

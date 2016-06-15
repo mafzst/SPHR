@@ -58,10 +58,10 @@ app.on('ready', function() {
   mainWindow.setMenu(null);
 
   /* Load window content */
-  mainWindow.loadUrl('file://' + __dirname + '/public/index.html');
+  mainWindow.loadUrl('file://' + __dirname + '/public/built/index.html');
 
   /* Uncomment this line to open DevTools at app start */
-  //mainWindow.openDevTools();
+  mainWindow.openDevTools();
 
   /* Handle window exiting */
   mainWindow.on('closed', function() {

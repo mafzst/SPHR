@@ -14,7 +14,12 @@
     <div id="profiler">
       <p>Try to register a new site by clicking on SPHR Chrome Extension button and reloading the page</p>
     </div>
+    <!-- remove:dev -->
+    <script src="./bundle.js"></script>
+    <!-- endremove -->
+    <!-- remove:production -->
     <script src="http://localhost:8080/webpack-dev-server.js"></script>
     <script src="http://localhost:8080/built/bundle.js"></script>
+    <!-- endremove -->
   </body>
 </html>
