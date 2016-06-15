@@ -61,7 +61,7 @@ app.on('ready', function() {
   mainWindow.loadUrl('file://' + __dirname + '/public/built/index.html');
 
   /* Uncomment this line to open DevTools at app start */
-  mainWindow.openDevTools();
+  //mainWindow.openDevTools();
 
   /* Handle window exiting */
   mainWindow.on('closed', function() {
