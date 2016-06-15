@@ -16,6 +16,7 @@
   "scripts": {
     "build": "npm run webpack && npm run inject-scripts-prod",
     "start": "./node_modules/electron-prebuilt/dist/electron .",
+    "start-dev": "npm run inject-scripts-dev && npm run watch & npm start",
     "watch": "./node_modules/.bin/webpack-dev-server",
     "webpack": "./node_modules/.bin/webpack --progress --color",
     "inject-scripts-prod": "./node_modules/postbuild/postbuild -i public/index.html -o public/built/index.html -r production",
