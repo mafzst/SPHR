@@ -15,9 +15,9 @@ $ cd SPHR
 $ npm install  
 # Install dependencies  
 
-$ npm run builsd
+$ npm run build
 # Start javascripts compilation
- 
+
 $ npm start
 ```  
 ### The Chrome extension  
